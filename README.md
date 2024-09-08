@@ -32,11 +32,11 @@ For users, the easiest way to install MFLUX is via pip:
 
 1. Clone the repo:
  ```
- git clone git@github.com:filipstrand/mflux.git
+ git clone https://github.com/filipstrand/mflux.git
  ```
 2. Navigate to the project and set up a virtual environment:
  ```
- cd mflux && python3 -m venv .venv && source .venv/bin/activate
+ cd mflux && python3 -m venv .venv &&  cd mflux && python3 -m venv .venv && source .venv/bin/activate
  ```
 3. Install the required dependencies:
  ```
